@@ -42,11 +42,27 @@ section.normal{
 section.imagem{
     background-color: rgb(70, 69, 69);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.548);
+    background-attachment: fixed;
 }
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0 black;
+}
+section#img01{
+    background-image: url('../desafio012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../desafio012/imagens/background002.jpg');
+    background-size: cover;
+
+}
+section > p{
+    padding-bottom: 2em;
 }
  a{
      color: white;
